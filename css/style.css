@@ -1,0 +1,76 @@
+@keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+     * {
+        animation-name: fadeIn;
+        -webkit-animation-duration: 1.0s;
+        animation-duration: 1.0s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+
+/* Centering Container Template */
+html, body {
+  background-color: #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica;
+  color: #c02034;
+}
+
+.container {
+  border: 2px solid #c02034;
+  width: 150%;
+  height: 1500%;
+  margin-top: 5%;
+}
+
+.gameTitle h1 {
+  text-align: center;
+}
+
+.computerChose h2 {
+  text-align: center;
+}
+
+.rps {
+  text-align: center;
+}
+
+.fa {
+  font-size: 6em;
+  cursor: pointer;
+  margin: 0.25em;
+}
+
+.fa:hover {
+  color: #578CA9;
+}
+
+.winner h2 {
+  text-align: center;
+}
+
+.scoreCount h2 {
+  text-align: center;
+}
+
+.resetBtn h1 {
+  text-align: center;
+}
+
+.resetBtn h1:hover {
+  color: #578CA9;
+  cursor: pointer;
+}
+
+
